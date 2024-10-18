@@ -9,3 +9,8 @@ if thing == subtraction:
   b = input("what is your second number? ")
   c = int(a) - int(b)
   print(str (c))
+if thing == multiplication:
+  a = input("what is your first number? ")
+  b = input("what is your second number? ")
+  c = int(a) * int(b)
+  print(str (c))

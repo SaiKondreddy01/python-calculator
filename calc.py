@@ -1,4 +1,4 @@
-thing = input("Do you want addition, subtraction, multiplication, division, or square root? ")
+thing = input("Do you want addition, subtraction, multiplication, division, square root, or square? ")
 import math
 if thing == addition:
   a = input("what is your first number? ")
@@ -23,4 +23,8 @@ if thing == division:
 if thing == "square root":
   a = input("What is the number? ")
   b = math.sqrt(a)
+  print(str(b))
+if thing == "square":
+  a = input("What is the number? ")
+  b = a ** 2
   print(str(b))

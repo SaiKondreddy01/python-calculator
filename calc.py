@@ -1,6 +1,6 @@
 thing = input("Do you want addition, subtraction, multiplication, division, square root, or square? ")
 import math
-if thing == addition:
+if thing == "addition":
   a = input("what is your first number? ")
   b = input("what is your second number? ")
   c = int(a) + int(b)

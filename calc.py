@@ -1,4 +1,5 @@
-thing = input("Do you want addition, subtraction, multiplication, or division? ")
+thing = input("Do you want addition, subtraction, multiplication, division, or square root? ")
+import math
 if thing == addition:
   a = input("what is your first number? ")
   b = input("what is your second number? ")
@@ -19,3 +20,7 @@ if thing == division:
   b = input("what is your second number? ")
   c = int(a) / int(b)
   print(str (c))
+if thing == "square root":
+  a = input("What is the number? ")
+  b = math.sqrt(a)
+  print(str(b))

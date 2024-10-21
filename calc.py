@@ -5,7 +5,7 @@ if thing == "addition":
   b = input("what is your second number? ")
   c = int(a) + int(b)
   print(str (c))
-if thing == subtraction:
+if thing == "subtraction":
   a = input("what is your first number? ")
   b = input("what is your second number? ")
   c = int(a) - int(b)
